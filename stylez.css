@@ -1,0 +1,418 @@
+
+	
+/*	=============================
+	   Reset Styles
+   	=============================
+*/
+html {
+	background-color: rgba(58, 81, 233, 0.21);
+		margin: 0px;
+	padding: 0px;
+	vertical-align: baseline;
+	width: 100%;
+	height: 100%;
+background-color: black;
+}
+body {
+		margin: 0px;
+	padding: 0px;
+	vertical-align: baseline;
+	width: 100%;
+	height: 100%;
+
+}
+.hero-image {
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("AdobeStock_248943706.jpeg");
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+top:8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2.4em;
+}
+
+ 
+
+
+/*	=============================
+	   Body Styles
+   	=============================
+*/
+
+body, html {
+   max-width: 80%;
+   margin: 0px auto;
+   position: relative;
+
+}
+
+
+
+
+
+/*	=============================
+	   Header Styles
+   	=============================
+*/
+header {
+	border: solid black 5px;
+	background-image: url("RainbowMtn_Logo_Left.jpg");
+	
+	
+}
+header h1 {
+	
+	font-size: 1.5em;
+	text-align: center;
+	   text-decoration: underline;
+}
+header img#OC {
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 24%;
+
+}
+h2#motto {
+	float: right;
+	text-align: center;
+	position: relative;
+		bottom: 90px;
+		right: 57px;
+		 text-shadow: 2px 4px 8px #E8DC39;	
+		 display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: center;
+	flex: 1 2 auto;
+	
+
+}
+
+h1#coursesITeach {
+	text-align: center;
+}
+/*	=============================
+	   Navigation Styles
+   	=============================
+*/
+nav {
+		float: right;
+	font-size: 0.92em;
+	position: relative;
+	bottom: 132px;
+	left: 309px;
+	 text-shadow: 2px 2px #FF0000;
+	 display:-webkit-inline-flex;
+display:inline-flex;
+-webkit-justify-content:space-between;
+justify-content:space-between;
+-webkit-align-items:center;
+align-items:center;
+-webkit-align-content:space-between;
+align-content:space-between;
+ flex: 1 1 auto;
+  margin: 2px;
+  padding: 5px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  
+}
+/* unvisited link */
+ li a.DA:link, li a.EP:link,li a.CF:link, li a.Cert:link,li a.Home:link  {
+  color: black;
+}
+
+/* visited link */
+ li a.DA:visited, li a.EP:visited,li a.CF:visited, li a.Cert:visited,li a.Home:visited  {
+  color: yellow;
+}
+
+/* mouse over link */
+ li a.DA:hover, li a.EP:hover,li a.CF:hover, li a.Cert:hover,li a.Home:hover {
+  color: blue;
+}
+
+/* selected link */
+ li a.DA:active, li a.EP:active,li a.CF:active, li a.Cert:active,li a.Home:active {
+  color: purple;
+}
+
+nav ul {
+	clear: right;
+	list-style: none;
+}
+
+nav li {
+	display: inline;
+}
+section#links p > a {
+	text-shadow: 2px 2px #FF0000;
+}
+section#links p > a:link {
+	 color: black;
+}
+section#links p > a:visited {
+	 color: yellow;
+}
+section#links p > a:hover {
+	 color: blue;
+}
+section#links p > a:link {
+	 color: purple;
+}
+
+
+/*	=============================
+	   Home Page Styles 
+   	=============================
+*/
+
+aside {
+	position: relative;
+	float: left;
+	width: 400px; 
+	padding: 5px;
+  border-style: solid;
+  border-width: 3px;
+  top:122px;
+  right: 122px;
+    background-image: ;
+    background-size: cover;
+background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(99,81,169,0.81) 35%, rgba(0,212,255,0.09287464985994398) 80%),url("AdobeStock_87556685 [Converted].png") ;
+  background-blend-mode:lighten;
+
+  
+} 
+
+aside hr {
+	width: 95%;
+}
+
+aside section p img {
+	width: 15%;
+	float: right;
+	
+}
+section#welcome {
+	  position: relative;
+  left: 2px;
+  bottom: -12px;
+
+  font-size: 1.5em;
+   font-family: "Impact", Times, serif;
+}
+section#content {
+	position: relative;
+
+}
+
+
+
+section#mailing, section#links {
+
+	width: 20%;
+}
+
+section h1, h2 {
+	font-size: 1.3em;
+	text-align: left;
+   font-family: "Impact", Times, serif;
+   text-decoration: underline;
+     color: white;
+   
+}
+p {
+	font-size: 1.3em;
+	text-align: center;
+  color: white;
+	
+}
+p.funfact {
+	font-size: 1em;
+	text-align: center;
+	font-family: "URW Chancery L", cursive, serof;
+	   text-decoration: underline;
+}
+section.contactInfo {
+	font-size: 1em;
+	text-align: center;
+   font-family: "Impact", Times, serif;
+
+}
+article, section#links {
+	 display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 50%;
+  border: 2px solid black;
+  padding: 2px;
+  margin: 20px;
+  background-color: rgba(90,60,246, 0.44);
+  box-shadow: 10px 15px 8px #CF3333;
+  position:relative;
+  top: 90px;
+}
+h2.title1,h2.title2, h2.title3 {
+ display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+}
+
+
+
+#mailing form {
+	margin-top: 10px;
+	text-align: center;
+}
+img.funLinks {
+	width: 50%;
+	border-radius: 50%;
+	border: solid black 2px;
+	box-shadow: 5px 10px #888888;
+}
+img#sally {
+width: 34%;
+float: left;
+}
+img#cat {
+	width: 80%;
+}
+section#security {
+	border-top: solid black 2px;
+	font-family:"URW Chancery L", cursive, serof; 
+	color: white;
+} 
+input.button1{
+	display:inline-block;
+padding:0.3em 1.2em;
+margin:0 0.3em 0.3em 0;
+border-radius:2em;
+box-sizing: border-box;
+text-decoration:underline;
+font-family:"URW Chancery L", cursive, serof;
+font-weight:300;
+color:#261f28;
+background-color:#51A68C;
+text-align:center;
+transition: all 0.2s;
+}
+ input.button2  {
+	 	display:inline-block;
+padding:0.3em 1.2em;
+margin:0 0.3em 0.3em 0;
+border-radius:2em;
+box-sizing: border-box;
+text-decoration:underline;
+font-family:"URW Chancery L", cursive, serof;
+font-weight:300;
+color:#261f28;
+background-color:#A6516B;
+text-align:center;
+transition: all 0.2s;
+ }
+input.button1, input.button2:hover {
+	background-color:#4095c6;
+} 
+
+}
+/*	=============================
+	   Certs/Table Styles 
+   	=============================
+*/
+
+table img {
+	width: 90%;
+	height: auto;
+}
+
+
+
+
+/*	=============================
+	   Footer Styles 
+   	=============================
+*/
+
+footer {
+	clear: both;
+	display: block; 
+	padding: 20px 0px 20px 0px;
+	text-align: center; 
+	 position:relative;
+  top: 250px;
+  color: white;
+
+}
+
+@media only screen and (max-width: 480px) {
+
+  body {
+	  max-width: 480px;
+	  min-width: 480px;
+  }
+  
+  body * {
+	  width: 100% !important;
+  }
+  
+  body header img {
+	width: 50% !important;
+  }
+  
+  body aside img {
+	  width: 12% !important;
+	  float: right;
+  }
+
+}
+ @media all and (max-width:30em){
+input.button1, input.button2{
+display:block;
+margin:0.2em auto;
+}
+header {
+	width: 100%;
+	height: 100%;
+}
+	
+
+
+
+
+

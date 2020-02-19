@@ -1,0 +1,236 @@
+
+
+/*  ===================================================================
+	 This CSS document is for the CIS 160 User Interface Design class.
+	 
+	 It provides the styling instructions for the home and certifications pages.
+	 The CSS style rules follow the logical structure of the HTML, so you will
+	 find header/nav styles at the top, footer styles at the bottom, and main
+	 section styles in the middle. Each styled part is preceded by a comment that
+	 describes what the styles are for. 
+	 
+	 You should be familiar with the HTML before changing the CSS, or you may get
+	 unexpected results. Try not to introduce or change styles for the home page that 
+	 create unwanted changes on the certifications page. Even though you are focusing
+	 only on the home page for this assignment, you need to be aware of how changes
+	 affect all pages.
+	 
+	 You'll find media query code at the very bottom. This is for a mobile version.
+	 Style the desktop version fist, then style the mobile version. See more comments
+	 about this under media query.
+	 
+	=================================================================== 
+
+	
+/*	=============================
+	   Reset Styles
+   	=============================
+*/
+
+body * {  
+	margin: 0px;
+	padding: 0px;
+	vertical-align: baseline;
+}
+
+a {						
+	text-decoration: none;
+}
+
+ 
+
+
+/*	=============================
+	   Body Styles
+   	=============================
+*/
+
+body {
+   max-width: 80%;
+   margin: 0px auto;
+   position: relative;
+}
+image {
+	  width: 500px;
+  margin: auto;
+  border: 3px solid #73AD21;
+}
+
+
+
+
+/*	=============================
+	   Header Styles
+   	=============================
+*/
+
+header h1 {
+	float: right;
+	font-size: 150%;
+}
+
+
+
+
+
+/*	=============================
+	   Navigation Styles
+   	=============================
+*/
+
+nav {
+	margin-top: 10px;
+}
+
+nav ul {
+	clear: right;
+	list-style: none;
+}
+
+nav li {
+	display: inline;
+}
+
+
+
+
+
+/*	=============================
+	   Home Page Styles 
+   	=============================
+*/
+
+aside {
+	float: left;
+	width: 30%; 
+	padding: 5px;
+  border-style: solid;
+  border-width: 5px;
+} 
+
+aside hr {
+	width: 95%;
+}
+
+aside section p img {
+	width: 15%;
+	float: right;
+	
+}
+
+section#content {
+	position: relative;
+}
+
+p span {
+	font-size: 1.7em;
+}
+
+section#mailing, section#links {
+	float: left;
+	width: 23%;
+}
+
+section h2 {
+	font-size: 1em;
+}
+
+#courses {
+	font-weight: bold;
+	text-align: center;
+}
+
+#mailing form {
+	margin-top: 10px;
+	text-align: center;
+}
+
+
+
+
+/*	=============================
+	   Certs/Table Styles 
+   	=============================
+*/
+
+table img {
+	width: 75%;
+	height: auto;
+}
+
+
+
+
+/*	=============================
+	   Footer Styles 
+   	=============================
+*/
+
+footer {
+	clear: both;
+	display: block; 
+	padding: 20px 0px 20px 0px;
+	text-align: center; 
+}
+
+
+
+
+
+/* =======================================
+	Media Queries
+   =======================================
+*/
+
+/* 
+	The code below is provided to reset element widths, and is based on a 
+	maximum screen width of 480 pixels. By resetting the targeted properties, 
+	the layout becomes a single column. The single column occurs when widths are 
+	100% of the maximum. 
+	
+	The inherent flow of the document is the same as the desktop version, 
+	and any specific styling to improve design still needs to be applied. Use
+	your wireframes to attain your desired results.
+	
+	**To accommodate a variety of screens, you would normally see more media 
+	queries than just this one. For this assignment, we are going to work
+	with just the one. Do not worry about how the layout of the page changes
+	under other screen sizes that fall between the large desktop and the one 
+	below, which represents an average mobile phone. If we had more time,
+	we might add more media queries to tweak layout and design accordingly.
+	
+	If you are new with media queries, please spend a little time reading up and/or
+	viewing some video tutorials. There are links provided in the Canvas course.
+*/
+
+
+
+@media only screen and (max-width: 480px) {
+
+  body {
+	  max-width: 480px;
+	  min-width: 480px;
+  }
+  
+  body * {
+	  width: 100% !important;
+  }
+  
+  body header img {
+	width: 50% !important;
+  }
+  
+  body aside img {
+	  width: 12% !important;
+	  float: right;
+  }
+
+}
+ 
+
+	
+
+
+
+
+
